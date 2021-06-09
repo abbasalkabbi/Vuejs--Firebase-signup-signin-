@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+}
+.form h1 {
+  font-size: 44px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.596);
+}
+.form span {
+  background: rgba(255, 0, 0, 0.384);
+  padding: 10px;
+  margin: 5px 20px 20px 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.form {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  box-shadow: 12px 12px 20px 0px rgba(0, 0, 0, 0.514),
+    -12px -12px 20px 0px rgba(0, 0, 0, 0.164);
+  border-radius: 20px;
+}
+.form input {
+  outline: none;
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.form #email {
+  width: 250px;
+  height: 30px;
+}
+.pass {
+  position: relative;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pass img {
+  width: 25px;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  cursor: pointer;
+}
+
+.pass img:hover {
+  opacity: 0.5;
+}
+.form #submit {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  font-size: 24px;
+}
+.form a {
+  text-decoration: none;
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+.form a:hover {
+  font-size: 30px;
+  color: #000;
+}
