@@ -20,8 +20,8 @@ npm run build
 npm run lint
 ```
 # sign in
+![vue-app-firebase (3)](https://user-images.githubusercontent.com/75854041/121326284-15aea880-c91b-11eb-9189-15ff20ac96ba.png)
 
-![vue-app-firebase](https://user-images.githubusercontent.com/75854041/121325733-85706380-c91a-11eb-9380-78530c06dc09.png)
 
 
 # sing up
